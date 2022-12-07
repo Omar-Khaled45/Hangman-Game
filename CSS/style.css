@@ -303,6 +303,10 @@ body {
   margin-top: 15px;
 }
 
+.container .guess.shake {
+  animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+}
+
 @media (max-width: 767px) {
   .container .guess {
     padding: 10px 15px 15px;
@@ -413,6 +417,6 @@ body {
   .popup .again {
     font-size: 20px;
     padding: 10px;
-    top: 65%;
+    top: 75%;
   }
 }

@@ -127,10 +127,6 @@ document.addEventListener("click", (e) => {
             span.innerHTML = letter;
             correctAnswer++;
           }
-
-          // if (span.classList.contains("space")) {
-          //   correctAnswer = 1;
-          // }
         });
       }
     });
