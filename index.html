@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS File -->
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Hangman Game</title>
+</head>
+<body>
+  <div class="container">
+    <div class="overlay"></div>
+    <h2 class="game-title">Hangman</h2>
+    <div class="category">Word From: <span></span></div>
+    <hr>
+    <div class="row">
+      <div class="hangman-draw">
+        <div class="the-draw">
+          <div class="stand"></div>
+          <div class="hang"></div>
+          <div class="rope"></div>
+          <div class="man">
+            <div class="head"></div>
+            <div class="body"></div>
+            <div class="arms"></div>
+            <div class="legs"></div>
+          </div>
+        </div>
+      </div>
+      <div class="letters"></div>
+    </div>
+    <hr>
+    <div class="guess"></div>
+  </div>
+  <div class="popup">
+    <div class="game-over">Game Over, The word Is <span></span></div>
+    <div class="congrats">Congratulations, You Got The Correct Word</div>
+    <button class="again">Play Again</button>
+  </div>
+  <script src="JS/main.js"></script>
+</body>
+</html>
