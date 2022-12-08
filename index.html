@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS File -->
-  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="style.css">
   <title>Hangman Game</title>
 </head>
 <body>
@@ -38,6 +38,11 @@
     <div class="congrats">Congratulations, You Got The Correct Word</div>
     <button class="again">Play Again</button>
   </div>
-  <script src="JS/main.js"></script>
+  <div class="attempts">You Have <span>9</span> Attempts</div>
+  <audio id="congrats" src="sound-effects/congrats.mp3" preload="auto"></audio>
+  <audio id="game-over" src="sound-effects/game-over.mp3" preload="auto"></audio>
+  <audio id="wrong" src="sound-effects/wrong.mp3" preload="auto"></audio>
+  <audio id="right" src="sound-effects/right.mp3" preload="auto"></audio>
+  <script src="main.js"></script>
 </body>
 </html>

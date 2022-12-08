@@ -1,0 +1,7 @@
+{
+  "countries": ["Syria", "Poland", "Spain", "England", "USA", "Argentina", "Portugal", "France", "Palestine", "Yemen", "Egypt", "Bahrain", "Qatar", "Algeria", "Brazil", "Cameroon", "China", "Denmark", "Morocco", "Greece", "India", "Italy", "Japan", "Senegal", "Saudi Arabia", "Sweden", "Turkey", "Tunisia"],
+
+  "movies": ["Prestige", "Inception", "Parasite", "Interstellar", "Whiplash", "Memento", "Coco", "Up", "Fight Club", "The Godfather", "Zodiac", "Harry Potter", "Fast and Furious", "The Dark Knight", "Gladiator", "Purple Hearts", "The Nun", "Red Notice", "Skyscraper", "Her", "The Matrix", "Catch Me If You Can", "Aladdin", "Unknown", "The Curious Case of Benjamin Button"],
+
+  "Football Player": ["Lionel Messi", "Cristiano Ronaldo", "Xavi", "Mohamed Salah", "Zlatan Ibrahimovic", "Sergio Aguero", "Neymar", "Sergio Busquets", "Xabi Alonso", "Mesut Ozil", "Thiago Silva", "Luis Suarez", "Sergio Ramos", "Karim Benzema", "Gareth Bale", "Vinicius Junior", "Wayne Rooney", "Manuel Neuer", "Angel DiMaria", "Jordi Alba", "Luka Modric", "Casemiro", "Asensio", "Marcelo", "Pepe", "Rodrygo", "Militao"]
+}
